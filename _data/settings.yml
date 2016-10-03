@@ -1,0 +1,28 @@
+#-------------------------------
+# General Site Settings
+
+title: Everyhing Naus Website
+description: This site is everythingNaus,  Who is Naus?  I am Christopher Nauslar and I have to many hobbies that I enjoy and I would like to share them with you.  Everything Naus will be a blog site focused on just that. Graphic Design and web development "nausdesign.com", Customer computer builds "Naus-Tech", MutiRotors, Drones, Quads "NausFPV", and DIYNAUS.
+email: NausDesign@gmail.com
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Design websites, design logos, branding, Ux design, UI design, and website Development, FPV, Drones, Muti rotors, Computer, water cooling, overclocking'
+  rel-author: 'https://everythingnaus.com'
+  rel-publisher: 'https://nausdesign.com'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-77898132-4
+
+#-------------------------------
