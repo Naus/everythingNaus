@@ -3,7 +3,7 @@
 }
 
 .grid-items {
-  $action-color: #477DCA !default;
+  $action-color: #2ecc71 !default;
   $base-background-color: white !default;
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
@@ -12,11 +12,11 @@
   $grid-item-colors:
     desaturate($action-color, 30%),
     #3581A5,
-    #5FBEBE,
+    #2ecc71,
     #98C79A,
-    #A7A891,
-    #BDCC97,
-    #979EA0;
+    #cd201f,
+    #fcaf45,
+    #1da1f2;
   $grid-item-border-size: 5px;
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
@@ -98,9 +98,25 @@
   }
 
   .grid-item-image {
-    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
+    background: url("../img/nausfpvbg.jpg");
     background-color: $grid-item-background;
     background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-nausdesign {
+    background: url("../img/ndbg.png");
+    background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-nausfpv {
+    background: url("../img/nausfpvbg.jpg");
+    background-color: $grid-item-background;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }

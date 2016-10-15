@@ -659,10 +659,10 @@ hr {
       background-repeat: no-repeat;
       background-size: cover; }
   .grid-items .grid-item:nth-child(3) {
-    background-color: #5FBEBE;
-    box-shadow: inset 0 0 1px 2px #44a6a6; }
+    background-color: #2ecc71;
+    box-shadow: inset 0 0 1px 2px #25a25a; }
     .grid-items .grid-item:nth-child(3):focus, .grid-items .grid-item:nth-child(3):hover {
-      background-color: #44a6a6;
+      background-color: #25a25a;
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -675,26 +675,26 @@ hr {
       background-repeat: no-repeat;
       background-size: cover; }
   .grid-items .grid-item:nth-child(5) {
-    background-color: #A7A891;
-    box-shadow: inset 0 0 1px 2px #909175; }
+    background-color: #cd201f;
+    box-shadow: inset 0 0 1px 2px #a11918; }
     .grid-items .grid-item:nth-child(5):focus, .grid-items .grid-item:nth-child(5):hover {
-      background-color: #909175;
+      background-color: #a11918;
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover; }
   .grid-items .grid-item:nth-child(6) {
-    background-color: #BDCC97;
-    box-shadow: inset 0 0 1px 2px #a7bb75; }
+    background-color: #fcaf45;
+    box-shadow: inset 0 0 1px 2px #fb9913; }
     .grid-items .grid-item:nth-child(6):focus, .grid-items .grid-item:nth-child(6):hover {
-      background-color: #a7bb75;
+      background-color: #fb9913;
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover; }
   .grid-items .grid-item:nth-child(7) {
-    background-color: #979EA0;
-    box-shadow: inset 0 0 1px 2px #7c8588; }
+    background-color: #1da1f2;
+    box-shadow: inset 0 0 1px 2px #0c85d0; }
     .grid-items .grid-item:nth-child(7):focus, .grid-items .grid-item:nth-child(7):hover {
-      background-color: #7c8588;
+      background-color: #0c85d0;
       background-position: top;
       background-repeat: no-repeat;
       background-size: cover; }
@@ -720,9 +720,21 @@ hr {
   .grid-items .grid-item-big p {
     max-width: 60%; } }
 .grid-items .grid-item-image {
-  background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png");
+  background: url("../img/nausfpvbg.jpg");
   background-color: #3567a0;
   background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-nausdesign {
+  background: url("../img/ndbg.png");
+  background-color: #3567a0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.grid-items .grid-item-nausfpv {
+  background: url("../img/nausfpvbg.jpg");
+  background-color: #3567a0;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
