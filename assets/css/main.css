@@ -597,6 +597,7 @@ hr {
         background-size: cover;
         border-right: 1px solid rgba(38, 74, 38, 0.2); } }
     .side-image .images-wrapper h1 {
+      margin-bottom: 0.9em;
       font-size: 2em;
       text-align: center;
       color: white;
@@ -605,11 +606,9 @@ hr {
       text-align: center;
       color: white;
       display: inline-block;
-      font-size: 0.95em; }
-    .side-image .images-wrapper p {
-      color: #333;
-      line-height: 1.5;
-      margin-bottom: 3em; }
+      font-size: 0.95em;
+      margin-bottom: 1.3em;
+      padding: 3px 8px; }
   .side-image .side-image-content {
     display: table-cell;
     width: 100%;
