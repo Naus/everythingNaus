@@ -596,6 +596,20 @@ hr {
         background-position: bottom;
         background-size: cover;
         border-right: 1px solid rgba(38, 74, 38, 0.2); } }
+    .side-image .images-wrapper h1 {
+      font-size: 2em;
+      text-align: center;
+      color: white;
+      text-transform: uppercase; }
+    .side-image .images-wrapper h4 {
+      text-align: center;
+      color: white;
+      display: inline-block;
+      font-size: 0.95em; }
+    .side-image .images-wrapper p {
+      color: #333;
+      line-height: 1.5;
+      margin-bottom: 3em; }
   .side-image .side-image-content {
     display: table-cell;
     width: 100%;
