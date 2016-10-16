@@ -12,11 +12,11 @@
   $grid-item-colors:
     desaturate($action-color, 30%),
     #3581A5,
-    #2ecc71,
-    #98C79A,
+    #555555,
+    #ffa500,
     #cd201f,
-    #fcaf45,
-    #1da1f2;
+    #999999,
+    #ADD8E6;
   $grid-item-border-size: 5px;
   $grid-item-columns: 4;
   $grid-item-big-columns: 8;
@@ -55,7 +55,7 @@
         &:focus,
         &:hover {
           background-color: darken($background-from-list, 10%);
-          background-position: top;
+          background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
         }
@@ -97,25 +97,65 @@
     }
   }
 
-  .grid-item-image {
-    background: url("../img/nausfpvbg.jpg");
-    background-color: $grid-item-background;
-    background-position: top;
+  .grid-item-nausblog {
+    background: url("../img/nausblogbg.png");
+    //background-color: $grid-item-background;
+    background-position: center;;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .grid-item-nausdesign {
-    background: url("../img/ndbg.png");
-    background-color: $grid-item-background;
+    background: url("../img/nausdesignbg.png");
+    //background-color: $grid-item-background;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .grid-item-nausfpv {
-    background: url("../img/nausfpvbg.jpg");
-    background-color: $grid-item-background;
+    background: url("../img/nausfpvbg.png");
+    //background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-naustech {
+    background: url("../img/naustechbg.png");
+    //background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-nausyoutube {
+    background: url("../img/youtubebg.png");
+    //background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-nausinstagram {
+    background: url("../img/instagrambg.png");
+    //background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-nausfacebook {
+    background: url("../img/facebookbg.png");
+    //background-color: $grid-item-background;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-item-naustwitter {
+    background: url("../img/twitterbg.png");
+    //background-color: $grid-item-background;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
