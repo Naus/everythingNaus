@@ -60,7 +60,9 @@
 
     @include media($large-screen) {
       @include span-columns(8);
-      //padding: 4em 4em 8em 4em;
+      .sub-page {
+        padding: 4em 4em 8em 4em;
+      }
     }
 
     h1 {

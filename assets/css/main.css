@@ -574,6 +574,64 @@ hr {
   padding: 40px 0 20px 0;
   color: #eef3f5; }
 
+.comment {
+  border-bottom: 1px solid rgba(51, 51, 51, 0.1);
+  display: table;
+  margin-bottom: 1.5em;
+  padding-bottom: 1em;
+  width: 100%; }
+  .comment .comment-image,
+  .comment .comment-content {
+    display: table-cell;
+    vertical-align: top; }
+  .comment .comment-image {
+    padding-right: 1.4em; }
+    .comment .comment-image > img {
+      background: #BBB;
+      border-radius: 3px;
+      display: block;
+      height: auto;
+      max-width: none;
+      padding: 0.3em;
+      width: 10em; }
+    .comment-reverse-order .comment .comment-image {
+      padding-left: 10px;
+      padding-right: 0; }
+  .comment .comment-content {
+    width: 100%; }
+    .comment .comment-content h1 {
+      font-size: 1em;
+      margin: 0 0 0.5em 0; }
+    .comment .comment-content p {
+      line-height: 1.5em;
+      margin-bottom: 0.5em; }
+    .comment .comment-content p.comment-detail {
+      color: rgba(51, 51, 51, 0.5);
+      font-size: 0.9em;
+      font-style: italic; }
+
+.stats {
+  padding: 0.75em; }
+  .stats ul {
+    padding: 0; }
+  .stats li {
+    border-right: 1px solid rgba(51, 51, 51, 0.2);
+    color: #d5d5d5;
+    display: inline;
+    float: left;
+    font-size: 1.2em;
+    line-height: 1.1em;
+    padding: 0 0.7em; }
+    .stats li:first-child {
+      padding-left: 0; }
+    .stats li:last-child {
+      border-right: 0; }
+  .stats span {
+    color: #333;
+    display: block;
+    font-size: 0.7em;
+    font-weight: normal; }
+
 .side-image {
   background: #F9F9F9; }
   @media screen and (min-width: 53.75em) {
@@ -616,7 +674,9 @@ hr {
     @media screen and (min-width: 53.75em) {
       .side-image .side-image-content {
         display: table-cell;
-        width: 66.66667%; } }
+        width: 66.66667%; }
+        .side-image .side-image-content .sub-page {
+          padding: 4em 4em 8em 4em; } }
     .side-image .side-image-content h1 {
       margin-bottom: 0.9em; }
     .side-image .side-image-content h4 {
