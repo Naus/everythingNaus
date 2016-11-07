@@ -640,7 +640,7 @@ hr {
       width: 100%;
       table-layout: fixed; } }
   .side-image .images-wrapper {
-    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"), linear-gradient(#B5EBEB, #5DAC5D), no-repeat #B5EBEB scroll;
+    background: url("../img/side_image.jpg");
     background-color: #B5EBEB;
     background-size: cover;
     border-bottom: 1px solid rgba(38, 74, 38, 0.2);
@@ -691,6 +691,9 @@ hr {
       color: #333;
       line-height: 1.5;
       margin-bottom: 3em; }
+    .side-image .side-image-content .topBox img {
+      height: 200px;
+      margin: auto; }
 
 .grid-items::after {
   clear: both;
