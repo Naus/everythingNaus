@@ -50,6 +50,10 @@
       padding: 3px 8px;
       //text-transform: uppercase;
     }
+
+    .topBox{
+      //margin-bottom: 300px;
+    }
   }
 
   .side-image-content {
@@ -81,14 +85,6 @@
       color: $base-font-color;
       line-height: $base-line-height;
       margin-bottom: 3em;
-    }
-
-    .topBox{
-
-      img{
-        height: 200px;
-        margin: auto;
-      }
     }
   }
 
